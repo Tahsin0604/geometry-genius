@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3892dc4ec4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Question Blog</title>
+  </head>
+  <body>
+    <header
+      class="mt-12 bg-sky-100 mx-4 md:mx-16 flex flex-col md:flex-row md:justify-between gap-4 border-blue-900 px-5 py-5 md:items-center rounded-md"
+    >
+      <div>
+        <h1 class="text-black font-bold text-2xl">Interactive</h1>
+        <h3 class="text-gray-500 font-medium text-xl">Geometry Book</h3>
+      </div>
+      <button
+        class="bg-sky-600 hover:bg-sky-500 text-white px-8 py-1 rounded-md font-semibold text-xl"
+        id="main-btn"
+      >
+        Home
+      </button>
+    </header>
+    <main
+      class="my-10 mx-0 md:mx-16 grid grid-cols-1 gap-4 bg-slate-50 py-12 rounded-lg"
+    >
+      <div
+        class="mx-auto w-full md:w-4/5 mb-8 bg-slate-200 px-4 md:px-8 py-12 rounded-md"
+      >
+        <div
+          id="question-portion"
+          class="flex gap-6 items-center text-2xl font-medium text-cyan-800 mb-4"
+        >
+          <i class="fa-solid fa-circle-question"></i>
+          <h1>What is DOM and what is the purpose of DOM?</h1>
+        </div>
+        <div
+          id="answer-portion"
+          class="flex gap-6 items-center text-sky-900 text-lg"
+        >
+          <i class="fa-solid fa-glasses"></i>
+          <p>
+            <em>
+              Full meaning of DOM is <strong>Document Object Model</strong>. It
+              is a programming interface for web documents.
+              <br />
+              Programmer use DOM to use and manipulate webpage structure,style
+              and content.
+            </em>
+          </p>
+        </div>
+      </div>
+      <div
+        class="mx-auto w-full md:w-4/5 mb-8 bg-slate-200 px-4 md:px-8 py-12 rounded-md"
+      >
+        <div
+          id="question-portion"
+          class="flex gap-6 items-center text-2xl font-medium text-cyan-800 mb-4"
+        >
+          <i class="fa-solid fa-circle-question"></i>
+          <h1>
+            How will you select HTML elements using DOM? Name the DOM methods.?
+          </h1>
+        </div>
+        <div
+          id="answer-portion"
+          class="flex gap-6 items-center text-sky-900 text-lg w-full"
+        >
+          <i class="fa-solid fa-glasses"></i>
+          <p>
+            <em>
+              there are 5 ways to select HTML elements using Dom.
+              <br />
+
+              <br />
+              1.getElementsByTagName()
+              <br />
+              2.getElementsByClassName()
+              <br />
+              3.querySelectorAll()
+              <br />
+              4.querySelector()
+              <br />
+              5.getElementById()
+              <br />
+            </em>
+          </p>
+        </div>
+      </div>
+      <div
+        class="mx-auto w-full md:w-4/5 mb-8 bg-slate-200 px-4 md:px-8 py-12 rounded-md"
+      >
+        <div
+          id="question-portion"
+          class="flex gap-6 items-center text-2xl font-medium text-cyan-800 mb-4"
+        >
+          <i class="fa-solid fa-circle-question"></i>
+          <h1>What is event bubble?</h1>
+        </div>
+        <div
+          id="answer-portion"
+          class="flex gap-6 items-center text-sky-900 text-lg"
+        >
+          <i class="fa-solid fa-glasses"></i>
+          <p>
+            <em>
+              <strong>Event Buubble</strong> is a concept in the <strong>DOM</strong>. It executes when an element receives an event and that event propagates to parent element of DOM tree untill it reaches to root element.
+            </em>
+          </p>
+        </div>
+      </div>
+      <div
+        class="mx-auto w-full md:w-4/5 mb-8 bg-slate-200 px-4 md:px-8 py-12 rounded-md"
+      >
+        <div
+          id="question-portion"
+          class="flex gap-6 items-center text-2xl font-medium text-cyan-800 mb-4"
+        >
+          <i class="fa-solid fa-circle-question"></i>
+          <h1>
+            What is a callback function and why will you use it?
+          </h1>
+        </div>
+        <div
+          id="answer-portion"
+          class="flex gap-6 items-center text-sky-900 text-lg w-full"
+        >
+          <i class="fa-solid fa-glasses"></i>
+          <p>
+            <em>
+              <strong>Callback Function</strong> is a function where we passed a function as parameter which will excute after another function has finished execution.
+              <br>
+             Beacuse many JavaScript actions are asynchronous, which means they don't really stop the program from running until they're completed. thats why we need callback function to sequnece our output.
+            </em>
+          </p>
+        </div>
+      </div>
+      
+    </main>
+    <script src="script/blog.js"></script>
+  </body>
+</html>
