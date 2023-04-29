@@ -1,1 +1,1 @@
-live site: [link](http://gusty-move.surge.sh/)
+surge live site: [link](http://gusty-move.surge.sh/)
